@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "765617349320",
+    "firebase_url": "https://hs-exam-dunia-default-rtdb.firebaseio.com",
+    "project_id": "hs-exam-dunia",
+    "storage_bucket": "hs-exam-dunia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765617349320:android:ab353ebda747a66227fbfd",
+        "android_client_info": {
+          "package_name": "hsexamduniabyamit.example.hsexamdunia2021"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "765617349320-fvns6gqvgv5i7gjf31igq022v3samrf7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMODPvjqw19RYH2t0D4W7IGTBKrTgedzw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "765617349320-fvns6gqvgv5i7gjf31igq022v3samrf7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765617349320:android:1e933da2b950062027fbfd",
+        "android_client_info": {
+          "package_name": "hsexamduniabyamit2021.example.hsexam2021"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "765617349320-fvns6gqvgv5i7gjf31igq022v3samrf7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMODPvjqw19RYH2t0D4W7IGTBKrTgedzw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "765617349320-fvns6gqvgv5i7gjf31igq022v3samrf7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
