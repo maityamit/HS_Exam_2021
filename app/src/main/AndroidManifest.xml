@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hsexamduniabyamit2021.example.hsexam2021">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/koho"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/koho"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HSExam2021">
+        <activity android:name=".PremiumSuggestions"></activity>
+        <activity android:name=".ChemistryHomeActivity" />
+        <activity android:name=".BengaliHomeActivity" />
+        <activity android:name=".TestPaperActivity" />
+        <activity android:name=".MathHomeActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".PhysicsPracticalActivity" />
+        <activity
+            android:name=".AboutActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".SpalshActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".NotificationsActivity" />
+        <activity android:name=".PhysicsClass12ChapterActivity" />
+        <activity android:name=".PhysicsClass12SolutionsActivity" />
+        <activity android:name=".PhysicsClass12ImportantQn" />
+        <activity android:name=".EnglishMCQShowActivity" />
+        <activity android:name=".EnglishLAQShowActivity" />
+        <activity android:name=".PhysicsSolutionsActivity" />
+        <activity android:name=".PhysicsImportantActivity" />
+        <activity android:name=".PhysicsLearningActivity" />
+        <activity android:name=".EnglishLAQChapterActivity" />
+        <activity android:name=".EnglishMCQActivity" />
+        <activity android:name=".BoardsResultActivity" />
+        <activity android:name=".pdfviewerActivity" />
+        <activity android:name=".EntranceExamActivity" />
+        <activity android:name=".PhysicsHomeActivity" />
+        <activity android:name=".EnglishHomeActivity" />
+        <activity android:name=".Class12Activity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/real_app_id" />
+    </application>
+
+</manifest>

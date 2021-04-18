@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PremiumSuggestions">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <RelativeLayout
+                android:id="@+id/combo_pack_premium_suggestion"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:gravity="center"
+                android:padding="20dp"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/chat_with_mentorbutton">
+
+
+
+                <TextView
+                    android:id="@+id/text_quartly_subscription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:text="Combo Pack Together"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text_quartly_subscription"
+                    android:textColor="@android:color/black"
+                    android:layout_marginTop="5dp"
+                    android:text="Bengali,English,Physics\nMath,Chemistry,Biology\nComputer Science"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:layout_alignParentEnd="true"
+                    android:text="₹: 99.00"
+                    android:layout_alignParentTop="true"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:background="#EF6C00"
+                    android:padding="1dp"
+                    android:textStyle="bold"
+                    android:layout_alignParentEnd="true"
+                    android:text="25.5% OFF"
+                    android:layout_alignParentBottom="true"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/bengali_premium_suggesions"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:padding="20dp"
+                android:gravity="center"
+                android:layout_marginTop="10sp"
+                android:background="@drawable/chat_with_mentorbutton">
+
+
+
+                <TextView
+                    android:id="@+id/text_monthly_subscription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:text="Bengali Suggestions"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text_monthly_subscription"
+                    android:text="Bengali"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:layout_alignParentEnd="true"
+                    android:text="₹: 19.00"
+                    android:layout_alignParentTop="true"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/english_premium_suggesions"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:padding="20dp"
+                android:gravity="center"
+                android:layout_marginTop="10sp"
+                android:background="@drawable/chat_with_mentorbutton">
+
+
+
+                <TextView
+                    android:id="@+id/text1_monthly_subscription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:text="English Suggestions"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text1_monthly_subscription"
+                    android:text="English"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:layout_alignParentEnd="true"
+                    android:text="₹: 19.00"
+                    android:layout_alignParentTop="true"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/mathematics_premium_suggesions"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:padding="20dp"
+                android:gravity="center"
+                android:layout_marginTop="10sp"
+                android:background="@drawable/chat_with_mentorbutton">
+
+
+
+                <TextView
+                    android:id="@+id/text2_monthly_subscription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:text="Mathematics Suggestions"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text2_monthly_subscription"
+                    android:text="Mathematics"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:layout_alignParentEnd="true"
+                    android:text="₹: 19.00"
+                    android:layout_alignParentTop="true"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/physics_premium_suggesions"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:padding="20dp"
+                android:gravity="center"
+                android:layout_marginTop="10sp"
+                android:background="@drawable/chat_with_mentorbutton">
+
+
+
+                <TextView
+                    android:id="@+id/text3_monthly_subscription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:text="Physics Suggestions"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text3_monthly_subscription"
+                    android:text="Physics"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:layout_alignParentEnd="true"
+                    android:text="₹: 19.00"
+                    android:layout_alignParentTop="true"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/chemistry_premium_suggesions"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:padding="20dp"
+                android:gravity="center"
+                android:layout_marginTop="10sp"
+                android:background="@drawable/chat_with_mentorbutton">
+
+
+
+                <TextView
+                    android:id="@+id/text4_monthly_subscription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:text="Chemistry Suggestions"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text4_monthly_subscription"
+                    android:text="Chemistry"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:layout_alignParentEnd="true"
+                    android:text="₹: 19.00"
+                    android:layout_alignParentTop="true"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/biology_premium_suggesions"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:padding="20dp"
+                android:gravity="center"
+                android:layout_marginTop="10sp"
+                android:background="@drawable/chat_with_mentorbutton">
+
+
+
+                <TextView
+                    android:id="@+id/text5_monthly_subscription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:text="Biology Suggestions"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text5_monthly_subscription"
+                    android:text="Biology"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:layout_alignParentEnd="true"
+                    android:text="₹: 19.00"
+                    android:layout_alignParentTop="true"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/cs_premium_suggesions"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:padding="20dp"
+                android:layout_marginBottom="30dp"
+                android:gravity="center"
+                android:layout_marginTop="10sp"
+                android:background="@drawable/chat_with_mentorbutton">
+
+
+
+                <TextView
+                    android:id="@+id/text6_monthly_subscription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:text="Computer Sc Suggestions"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text6_monthly_subscription"
+                    android:text="Computer Science"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:layout_alignParentEnd="true"
+                    android:text="₹: 19.00"
+                    android:layout_alignParentTop="true"/>
+
+
+            </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

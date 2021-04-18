@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginTop="5dp"
+    android:background="@drawable/dida"
+    android:layout_marginBottom="10dp"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:id="@+id/lin_bekar_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:padding="10dp"
+            android:src="@drawable/practical_exam_image"/>
+
+        <TextView
+            android:id="@+id/physics_practical_no_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#C62828"
+            android:layout_marginStart="10dp"
+            android:text="Practical No"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/physics_practical_description_textview"
+        android:layout_width="match_parent"
+        android:layout_below="@id/lin_bekar_lay"
+        android:layout_marginStart="40dp"
+        android:text="Practical Name with Description"
+        android:layout_marginEnd="15dp"
+        android:layout_height="wrap_content"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/physics_practical_description_textview"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/black"/>
+
+
+
+
+
+
+</RelativeLayout>

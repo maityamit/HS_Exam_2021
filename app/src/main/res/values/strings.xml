@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">HS Exam 2021</string>
+    <string name="home">Blog</string>
+    <string name="blog">Home</string>
+    <string name="setting">Settings</string>
+
+
+    <string name="real_app_id">ca-app-pub-7338877981689107~3283621735</string>
+    <string name="real_banner_01">ca-app-pub-7338877981689107/1683615510</string>
+
+
+    <string name="banner_test_ads_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="test_app_id">ca-app-pub-3940256099942544~3347511713</string>
+
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".pdfviewerActivity">
+
+    <WebView
+        android:id="@+id/web_view"
+        android:layout_below="@id/adView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    </WebView>
+
+    <com.google.android.gms.ads.AdView
+        android:layout_alignParentTop="true"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/real_banner_01">
+    </com.google.android.gms.ads.AdView>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/progressBar" />
+</RelativeLayout>

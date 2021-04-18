@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#1565C0"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomeFragment">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+
+            <RelativeLayout
+                android:id="@+id/tomaiami"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_height="160dp">
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/show_off_01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:padding="8dp"
+                    android:layout_alignParentStart="true"
+                    android:textAllCaps="false"
+                    android:backgroundTint="@android:color/white"
+                    android:layout_marginStart="15dp"
+                    android:textColor="#1565C0"
+                    android:textSize="18sp"
+                    android:text="@string/app_name"/>
+
+
+                <ImageView
+                    android:id="@+id/notifications"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:src="@drawable/notifications"
+                    android:layout_marginEnd="20dp"/>
+
+
+
+            </RelativeLayout>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_slider_mainActivity"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="75dp"
+                app:cardCornerRadius="5dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/banner"/>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_below="@id/tomaiami"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/home_layout"
+                android:orientation="vertical">
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginTop="145dp"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginTop="5dp"
+                        app:cardCornerRadius="10dp"
+                        app:cardElevation="10dp"
+                        android:elevation="5dp"
+                        android:padding="10dp"
+                        android:layout_marginBottom="20dp">
+
+
+                        <RelativeLayout
+                            android:background="@drawable/dida"
+                            android:id="@+id/class_12_home_button"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:id="@+id/class_12_image"
+                                android:layout_width="60dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_height="60dp"
+                                android:layout_centerHorizontal="true"
+                                android:src="@drawable/class_12"/>
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/class_12_image"
+                                android:textColor="#2E7D32"
+                                android:layout_marginTop="5dp"
+                                android:textSize="18sp"
+                                android:layout_marginBottom="5dp"
+                                android:textStyle="bold"
+                                android:layout_centerHorizontal="true"
+                                android:text="Class 12"/>
+
+                        </RelativeLayout>
+
+
+
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="20dp"
+                        app:cardElevation="10dp"
+                        android:layout_marginTop="5dp"
+                        app:cardCornerRadius="10dp"
+                        android:elevation="5dp"
+                        android:padding="10dp"
+                        android:layout_marginBottom="5dp">
+
+
+                        <RelativeLayout
+                            android:background="@drawable/dida"
+                            android:id="@+id/premium_home_button"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:id="@+id/class_12_premium_image"
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_centerHorizontal="true"
+                                android:src="@drawable/premium_suggestion_image"/>
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/class_12_premium_image"
+                                android:textColor="#C62828"
+                                android:layout_marginTop="5dp"
+                                android:textSize="18sp"
+                                android:layout_marginBottom="5dp"
+                                android:textStyle="bold"
+                                android:layout_centerHorizontal="true"
+                                android:text="Premium"/>
+
+                        </RelativeLayout>
+
+
+
+
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="10dp"
+                        app:cardElevation="10dp"
+                        android:layout_marginTop="5dp"
+                        app:cardCornerRadius="10dp"
+                        android:elevation="5dp"
+                        android:padding="10dp"
+                        android:layout_marginBottom="20dp">
+
+
+                        <RelativeLayout
+                            android:background="@drawable/dida"
+                            android:id="@+id/quiz_home_button"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/class_12_quiz_image"
+                                android:layout_width="60dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_height="60dp"
+                                android:src="@drawable/kohoz"
+                                android:layout_centerHorizontal="true" />
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/class_12_quiz_image"
+                                android:textColor="#283593"
+                                android:layout_marginTop="5dp"
+                                android:textSize="18sp"
+                                android:layout_marginBottom="5dp"
+                                android:textStyle="bold"
+                                android:layout_centerHorizontal="true"
+                                android:text="Boards Result"/>
+
+                        </RelativeLayout>
+
+
+
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginTop="5dp"
+                        app:cardElevation="10dp"
+                        app:cardCornerRadius="10dp"
+                        android:elevation="5dp"
+                        android:padding="10dp"
+                        android:layout_marginBottom="5dp">
+
+
+                        <RelativeLayout
+                            android:background="@drawable/dida"
+                            android:id="@+id/entrance_home_button"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:id="@+id/class_12_dummy_image"
+                                android:layout_width="60dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_height="60dp"
+                                android:layout_centerHorizontal="true"
+                                android:src="@drawable/exam_image"/>
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/class_12_dummy_image"
+                                android:textColor="#F9A825"
+                                android:layout_marginTop="5dp"
+                                android:textSize="18sp"
+                                android:layout_marginBottom="5dp"
+                                android:textStyle="bold"
+                                android:layout_centerHorizontal="true"
+                                android:text="Entrance Exam"/>
+
+                        </RelativeLayout>
+
+
+
+
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="10dp"
+                        app:cardElevation="10dp"
+                        android:layout_marginTop="5dp"
+                        app:cardCornerRadius="10dp"
+                        android:elevation="5dp"
+                        android:padding="10dp"
+                        android:layout_marginBottom="20dp">
+
+
+                        <RelativeLayout
+                            android:background="@drawable/dida"
+                            android:id="@+id/about_us_home_button"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:id="@+id/class_12_about_image"
+                                android:layout_width="60dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_height="60dp"
+                                android:layout_centerHorizontal="true"
+                                android:src="@drawable/abou_us_image"/>
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/class_12_about_image"
+                                android:textColor="#0277BD"
+                                android:layout_marginTop="5dp"
+                                android:textSize="18sp"
+                                android:layout_marginBottom="5dp"
+                                android:textStyle="bold"
+                                android:layout_centerHorizontal="true"
+                                android:text="About Us"/>
+
+                        </RelativeLayout>
+
+
+
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginTop="5dp"
+                        app:cardElevation="10dp"
+                        app:cardCornerRadius="10dp"
+                        android:elevation="5dp"
+                        android:padding="10dp"
+                        android:layout_marginBottom="5dp">
+
+
+
+
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+
+    </ScrollView>
+
+
+
+
+
+
+</RelativeLayout>
