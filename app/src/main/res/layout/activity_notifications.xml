@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:layout_height="match_parent"
     android:background="@drawable/dida"
-    tools:context=".NotificationsActivity">
+    tools:context="hsexamduniabyamit2022.example.hsexam2022.NotificationsActivity">
 
     <TextView
         android:id="@+id/hy"

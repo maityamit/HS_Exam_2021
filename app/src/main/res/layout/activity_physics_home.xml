@@ -6,7 +6,7 @@
     android:background="@drawable/dida"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".PhysicsHomeActivity">
+    tools:context="hsexamduniabyamit2022.example.hsexam2022.PhysicsHomeActivity">
 
 
 

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:background="@drawable/dida"
     android:layout_height="match_parent"
-    tools:context=".SpalshActivity">
+    tools:context="hsexamduniabyamit2022.example.hsexam2022.SpalshActivity">
 
 
     <androidx.cardview.widget.CardView

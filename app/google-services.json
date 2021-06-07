@@ -8,9 +8,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:765617349320:android:ab353ebda747a66227fbfd",
+        "mobilesdk_app_id": "1:765617349320:android:1e933da2b950062027fbfd",
         "android_client_info": {
-          "package_name": "hsexamduniabyamit.example.hsexamdunia2021"
+          "package_name": "hsexamduniabyamit2021.example.hsexam2021"
         }
       },
       "oauth_client": [
@@ -33,13 +33,14 @@
             }
           ]
         }
-      }
+      },
+      "admob_app_id": "ca-app-pub-7338877981689107~3283621735"
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:765617349320:android:1e933da2b950062027fbfd",
+        "mobilesdk_app_id": "1:765617349320:android:dd45bf836f0c0d1327fbfd",
         "android_client_info": {
-          "package_name": "hsexamduniabyamit2021.example.hsexam2021"
+          "package_name": "hsexamduniabyamit2022.example.hsexam2022"
         }
       },
       "oauth_client": [

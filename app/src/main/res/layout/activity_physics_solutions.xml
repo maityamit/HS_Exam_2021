@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PhysicsSolutionsActivity">
+    tools:context="hsexamduniabyamit2022.example.hsexam2022.PhysicsSolutionsActivity">
 
 </androidx.constraintlayout.widget.ConstraintLayout>

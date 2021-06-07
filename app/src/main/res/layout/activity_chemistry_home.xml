@@ -6,7 +6,7 @@
     android:background="@drawable/dida"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".ChemistryHomeActivity">
+    tools:context="hsexamduniabyamit2022.example.hsexam2022.ChemistryHomeActivity">
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="300dp"
         android:layout_height="wrap_content"

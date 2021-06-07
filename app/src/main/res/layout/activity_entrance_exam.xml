@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".EntranceExamActivity">
+    tools:context="hsexamduniabyamit2022.example.hsexam2022.EntranceExamActivity">
 
 
     <TextView

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/dida"
     android:orientation="vertical"
-    tools:context=".PhysicsClass12ImportantQn">
+    tools:context="hsexamduniabyamit2022.example.hsexam2022.PhysicsClass12ImportantQn">
 
     <TextView
         android:layout_width="wrap_content"

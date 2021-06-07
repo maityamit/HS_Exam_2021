@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/dida"
     android:orientation="vertical"
-    tools:context=".EnglishMCQActivity">
+    tools:context="hsexamduniabyamit2022.example.hsexam2022.EnglishMCQActivity">
 
 
     <androidx.appcompat.widget.AppCompatButton

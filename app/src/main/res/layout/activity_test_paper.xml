@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".TestPaperActivity">
+    tools:context="hsexamduniabyamit2022.example.hsexam2022.TestPaperActivity">
 
     <TextView
         android:id="@+id/test_paper_subject"

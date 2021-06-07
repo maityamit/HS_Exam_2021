@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".PhysicsPracticalActivity">
+    tools:context="hsexamduniabyamit2022.example.hsexam2022.PhysicsPracticalActivity">
 
     <RelativeLayout
         android:id="@+id/ami_tomay_real"
