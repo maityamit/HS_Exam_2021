@@ -67,7 +67,7 @@ public class ProfileFragment extends Fragment {
         linearLayoutsupport.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String urle = "https://chat.whatsapp.com/HFr3qNsWYgLC9vKM261wnZ";
+                String urle = "https://chat.whatsapp.com/IRcZlEkEKTKAgSTIJHQbLr";
                 Intent ie = new Intent(Intent.ACTION_VIEW);
                 ie.setData(Uri.parse(urle));
                 startActivity(ie);
@@ -77,7 +77,7 @@ public class ProfileFragment extends Fragment {
         wa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String urle = "https://chat.whatsapp.com/HFr3qNsWYgLC9vKM261wnZ";
+                String urle = "https://chat.whatsapp.com/IRcZlEkEKTKAgSTIJHQbLr";
                 Intent ie = new Intent(Intent.ACTION_VIEW);
                 ie.setData(Uri.parse(urle));
                 startActivity(ie);

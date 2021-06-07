@@ -1,7 +1,7 @@
 # HS Exam 2021 Suggestion 
 HS Exam of West Bengal 
 
-# ⚙️ Features 
+# ⚙ Features
 1. See all the Subject wise suggestion
 2. You can acess the suggestion free
 3. past Year Question
