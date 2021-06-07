@@ -14,7 +14,7 @@
         android:roundIcon="@drawable/koho"
         android:supportsRtl="true"
         android:theme="@style/Theme.HSExam2021">
-        <activity android:name=".PremiumSuggestions"></activity>
+        <activity android:name=".PremiumSuggestions"/>
         <activity android:name=".ChemistryHomeActivity" />
         <activity android:name=".BengaliHomeActivity" />
         <activity android:name=".TestPaperActivity" />
@@ -54,9 +54,7 @@
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
-        <meta-data
-            android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="@string/real_app_id" />
+
     </application>
 
 </manifest>
